@@ -1,0 +1,259 @@
+<!-- #nav-profile -->
+<article>
+    <div class="article-content">
+        <p style="margin-bottom: 0; color: #777;"><small>METODOLOGIA</small></p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <span><u>Descripció</u> de les <strong>variables</strong></span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>La principal font de dades utilitzada és l’Enquesta de Salut de Barcelona
+                            (ESB)
+                            de l’any 2016. L’ESB es realitza amb una periodicitat d’aproximadament 5
+                            anys i
+                            té per objectiu obtenir informació actualitzada sobre la salut i els
+                            determinats
+                            de la salut dels habitants de la ciutat de Barcelona. La població d’estudi
+                            son
+                            totes les persones no institucionalitzades residents I empadronades a la
+                            ciutat
+                            de Barcelona de 15 anys o més. La unitat mostral son els individus i la
+                            distribució territorial de la mostra és de tipus estratificada segons
+                            districte
+                            municipal. Es considera cada un dels districtes de la ciutat de Barcelona
+                            com
+                            estrats independents, garantint així la representativitat estadística de
+                            cada un
+                            d’ells, assumint un nivell d’error del 5%. La mida de la mostra de l’ESB de
+                            l’any 2016 son 4000 persones.</p>
+                        <p>Per construir l’índex geogràfic de pobresa energètica s’han emparat també
+                            dades
+                            del padró de la ciutat de l’any 2016 I dades del cens de l’any 2011.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <span><strong>Dades</strong></span>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Al llarg de l’aplicació web s’utilitzen diferents variables
+                            sociodemogràfiques, indicadors de pobresa energètica i variables de l’estat
+                            de salut, l’ús de serveis sanitaris i l’ús de fàrmacs. A continuació es
+                            descriuen breument, es pot obtenir més informació al manual metodològic de
+                            l’ESB.</p>
+                        <p>Indicadors de pobresa energètica:</p>
+                        <ul>
+                            <li>Temperatura inadequada als mesos freds: identifica a les persones que no
+                                es
+                                poden permetre mantenir el seu habitatge a una temperatura adequada
+                                durant
+                                els mesos freds.</li>
+                            <li>Temperatura inadequada als mesos càlids: identifica a les persones que
+                                no es
+                                poden permetre mantenir el seu habitatge a una temperatura adequada
+                                durant
+                                els mesos càlids.</li>
+                            <li>Temperatura inadequada als mesos freds i/o càlids: identifica a les
+                                persones
+                                que no es poden permetre mantenir el seu habitatge a una temperatura
+                                adequada durant els mesos freds i/o càlids.</li>
+                            <li>Retràs pagament factures: identifica a les persones que s’han endarrerit
+                                en els últims 12 mesos en el pagament de factures o rebuts de serveis
+                                (llum, aigua, gas, calefacció).</li>
+                            <li>Deficiències físiques ala llar: identifica a les persones que viuen en
+                                habitatges amb goteres, humitats en parets, terres, sostres o fonaments,
+                                o podridura de sols, marcs de finestres o portes.</li>
+                            <li>Falta de medis per escalfar: identifica a les persones que no tenen
+                                calefacció (central o individual) o altres aparells per escalfar alguna
+                                habitació o que en tenen, però no els utilitzen quan els cal.</li>
+                            <li>Falta d’aire condicionat: identifica a les persones que no tenen aire
+                                condicionat o que en tenen, però no l’utilitzen quan els cal.</li>
+                            <li>Índex geogràfic de pobresa energètica: indicador compost a partir dels
+                                altres indicadors de pobresa energètica i informació sociodemogràfica a
+                                nivell de barri (més informació a Anàlisi estadística).</li>
+                        </ul>
+
+                        <p>Variables sociodemogràfiques:</p>
+                        <ul>
+                            <li>Edat: s’ha categoritzat l’edat en menors de 65 anys i 65 anys o més.</li>
+                            <li>País de naixement: s’ha categoritzat el país de naixement en països de renta alta i
+                                països
+                                de renta mitja i baixa, seguint la classificació de l’any 2018 del Banc Mundial.</li>
+                            <li>Classe social: es calcula en base a l’ocupació actual o anterior que es codifica segons
+                                la
+                                Clasificación Nacional de Ocupaciones de 2011. Les ocupacions s’agrupen posteriorment en
+                                classe social no manual (que inclou directius de l’administració i d’empreses,
+                                professions
+                                associades a titulacions universitàries, artistes, esportistes, treballadors de tipus
+                                administratiu, treballadors dels serveis de protecció i seguretat, treballadors per
+                                compte
+                                propi i supervisors de treballadors manuals) i manual (que inclou treballadors manuals
+                                qualificats, semi-qualificats i no qualificats).</li>
+                        </ul>
+
+                        <p>Variables de l’estat de salut:</p>
+                        <ul>
+                            <li>Mala salut autopercebuda: s’obté de la pregunta com és la salut en general amb 5 opcions
+                                de
+                                resposta i que posteriorment s’agrupa en bona salut autopercebuda (excel·lent, molt
+                                bona,
+                                bona) i mala salut autopercebuda (regular o dolenta).</li>
+                            <li>Mala salut mental: s’obté a partir de l’escala d’ansietat i depressió de Goldberg, el
+                                General Health Questionnaire. Les persones amb una puntuació de 3 o més son considerades
+                                d’estar en risc d’una mala salut mental o patiment psicològic.</li>
+                            <li>Problemes que afecten la qualitat de vida: s’obté a partir de la mesura de qualitat de
+                                vida
+                                EuroQol (EQ-5D-5L). S’agrupen els resultats en persones que tenen i no tenen problemes.
+                            </li>
+                            <li>Hipertensió arterial: la persona enquestada reporta que pateix o ha patit hipertensió
+                                arterial.</li>
+                            <li>Infart del miocardi/cerebral: la persona enquestada reporta que pateix o ha patit
+                                embòlia/atac de feridura o infart de miocardi.</li>
+                            <li>Asma: la persona enquestada reporta que pateix o ha patit asma.</li>
+                            <li>Bronquitis crònica: la persona enquestada reporta que pateix o ha patit bronquitis
+                                crònica.
+                            </li>
+                            <li>Artrosi, artritis o reumatisme: la persona enquestada reporta que pateix o ha patit
+                                artrosi,
+                                artritis o reumatisme.</li>
+                            <li>Al·lèrgies cròniques: la persona enquestada reporta que pateix o ha patit al·lèrgies
+                                cròniques.</li>
+                            <li>Migranya o mals de cap freqüents: la persona enquestada reporta que pateix o ha patit
+                                migranya o mals de cap freqüents.</li>
+                            <li>Sobrepès: es defineix com un índex de massa corporal igual o superior a 25.</li>
+                            <li>Artrosi, artritis o reumatisme: la persona enquestada reporta que pateix o ha patit
+                                artrosi,
+                                artritis o reumatisme.</li>
+                            <li>Al·lèrgies cròniques: la persona enquestada reporta que pateix o ha patit al·lèrgies
+                                cròniques.</li>
+                            <li>Diabetis: la persona enquestada reporta que pateix o ha patit diabetis.</li>
+                            <li>Accidents domèstics: és una variable composta que inclou haver patit accidents a la llar
+                                com
+                                cremades, talls, cops o caigudes durant els últims 12 mesos.</li>
+                        </ul>
+
+                        <p>Variables de l’ús de serveis sanitaris:</p>
+                        <ul>
+                            <li>Urgències: la persona enquestada ha estat visitada o ha consultat un servei d’urgències
+                                dues
+                                o més vegades en els darrers 12 mesos.</li>
+                            <li>Hospitalització: la persona enquestada ha estat ingressada en un hospital mínim una nit
+                                en
+                                els darrers 12 mesos.</li>
+                            <li>Atenció primària: la persona enquestada ha consultat o ha estat visitada per un/a
+                                metge/ssa
+                                de medicina general o de capçalera en els darrers 12 mesos.</li>
+                            <li>Infermeria: la persona enquestada ha consultat o ha estat visitada per un/a infermer/a
+                                en
+                                els darrers 12 mesos.</li>
+                            <li>Psiquiatria: la persona enquestada ha consultat o ha estat visitada per un/a
+                                psiquiatre/a en
+                                els darrers 12 mesos.</li>
+                            <li>Treball social: la persona enquestada ha consultat o ha estat visitada per un/a
+                                treballador/a social en els darrers 12 mesos.</li>
+                            <li>Atenció mèdica no atesa: la persona enquestada ha tingut algun problema de salut en els
+                                darrers 12 mesos que creia que requeria atenció mèdica, però no va demanar-la.</li>
+                        </ul>
+
+                        <p>Variables de l’ús de fàrmacs:</p>
+                        <ul>
+                            <li>Analgèsics: la persona enquestada ha pres medicaments per alleujar el dolor i/o
+                                antiinflamatoris durant els últims dos dies.</li>
+                            <li>Medicaments per l’al·lèrgia: la persona enquestada ha pres medicaments per l’al·lèrgia
+                                durant els últims dos dies.</li>
+                            <li>Antibiòtics: la persona enquestada ha pres antibiòtics durant els últims dos dies.</li>
+                            <li>Medicaments per l’asma: la persona enquestada ha pres medicaments per l’asma durant els
+                                últims dos dies.</li>
+                            <li>Psicofàrmacs: la persona enquestada ha pres tranquil·litzants, sedants, antidepressius o
+                                medicaments per dormir durant els últims dos dies.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <span>Anàlisis <strong>estadístic</strong></span>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p class="h5">Pobresa energètica en números</p>
+                        <p>S’han calculat percentatges dels diferents indicadors de pobresa energètica
+                            per edat, país de naixement i classe social.</p>
+                        <p>Tots els anàlisis s’han realitzat per dones i homes per separat i s’ha
+                            tingut en compte en tot moment el disseny complex de la mostra, utilitzant
+                            pesos i estrats mostrals.</p>
+
+                        <p class="h5">Pobresa energètica per barris</p>
+                        <p>Per l’estudi geogràfic de la pobresa energètica a Barcelona s’ha utilitzar
+                            un model Bayesià anomenat M-Model que permet tenir en compte tant la
+                            dependència entre els diferents indicadors de pobresa energètica com
+                            l’existència de dependència espacial entre els valors d’aquests. Així,
+                            l’M-Model s’ha utilitzat per obtenir el 6 indicadors de pobresa energètica
+                            suavitzats pels 73 barris de Barcelona, corregint la subrepresentativitat de
+                            la mostra a nivell de barri. Posteriorment s’ha estimat un índex de pobresa
+                            energètica a partir de la primera dimensió de l’anàlisi de components
+                            principals de la matriu de variància-covariància dels 6 indicadors.</p>
+
+                        <p class="h5">Pobresa energètica i salut</p>
+                        <p>S’ha calculat la prevalença (percentatge) dels diferents indicadors d’estat de salut i ús de
+                            serveis sanitaris i fàrmacs en les persones amb i sense pobresa energètica.</p>
+                        <p>Per estudiar l’associació entre la pobresa energètica i la salut s’han calculat raons de
+                            prevalença (RP) i els seus corresponents intervals de confiança del 95% a través de models
+                            de
+                            regressió de Poisson amb variància robusta. Els models s’han ajustat per edat i classe
+                            social.
+                        </p>
+                        <p>Aquests mateixos models ajustats s’han utilitzat per analitzar l’impacte de la pobresa
+                            energètica
+                            sobre l’estat de salut i l’ús de serveis sanitaris i de fàrmacs a la població de Barcelona a
+                            través del càlcul de percentatges de risc atribuïble poblacional (PAR%). Els PAR% es poden
+                            interpretar com la proporció de mals resultats en salut (per exemple mala salut mental) en
+                            la
+                            població que es poden atribuir a la pobresa energètica i que per tant, en teoria, es podrien
+                            prevenir eliminant la pobresa energètica. S’obtenen restant els casos esperants de mals
+                            resultats en salut en cas d’absència de pobresa energètica dels casos observats i dividint
+                            aquesta resta pels casos observats. Per calcular els intervals de confiança del 95% dels
+                            PAR%
+                            s’ha utilitzat el mètode de remostreig bootstrap.</p>
+                        <p>Tots els anàlisis s’han realitzat per dones i homes per separat i s’ha tingut en compte en
+                            tot
+                            moment el disseny complex de la mostra, utilitzant pesos i estrats mostrals.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <span>Més <u>informació</u></span>
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Per més informació es poden consultar les següents publicacions:</p>
+                        <ul>
+                            <li>The association</li>
+                            <li>M-model</li>
+                            <li>Distribució geogràfica</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
