@@ -7,10 +7,10 @@ library(datasets)
 pacman::p_load("tidyverse", "lubridate", "shiny")
 
 # lectura de datos
-malaria_data <- rio::import(here::here("Documents", "_2023", "om", "rData", "pensa", "pensa-20231205-shiny", "data", "malaria_facility_count_data.csv")) %>% 
+malaria_data <- rio::import("data/malaria_facility_count_data.csv") %>% 
   as_tibble()
 # lectura de datos vs02
-malaria_data_vs02 <- rio::import(here::here("Documents", "_2023", "om", "rData", "pensa", "pensa-20231205-shiny", "data", "malaria_facility_count_data.csv")) %>% 
+malaria_data_vs02 <- rio::import("data/malaria_facility_count_data.csv") %>% 
   as_tibble()
 
 # limpiar datos y pivotar largo
